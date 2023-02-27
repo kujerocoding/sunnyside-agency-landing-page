@@ -4,11 +4,18 @@ const Main = () => {
   return (
     <main>
         <header>
-            <img src="../src/assets/images/mobile/image-header.jpg" alt="orange fruit" />
+            <div className='img--orange--container'>
+            <span className='header__img--orange' role="img" aria-label='orange' ></span>
+            </div>
+           
+                <div className='header--info--container'>
+                  <p>We are creatives</p>
+                  <img className="header__img--arrow" src="../src/assets/images/icon-arrow-down.svg" alt="arrow down" />
+                 </div>
         </header>
         <div>
-            <span role="img" aria-label='egg'></span>
-            <h1>We are creatives Transform your brand</h1>
+            <span className='img--egg' role="img" aria-label='egg'></span>
+            <h1>Transform your brand</h1>
              <p>
                 We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
             </p>
