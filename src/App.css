@@ -21,3 +21,54 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: var(--FFPRIMARY);
+    font-size: var(--FS);
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: transparent;
+
+    padding: 40px 20px;
+   
+}
+
+.nav--icons--container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    margin-top: 50px;
+    text-align: center;
+    padding-block: 40px;
+    background-color: white;
+    list-style: none;
+    color: var(--DARKGRAYISHBLUE);
+    line-height: 3rem;
+    position: relative;
+}
+
+nav > ul::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: -30px;
+    right: 0;
+    border-top: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid white;
+    border-right: 20px solid white;
+    
+}
+
+
+header > img {
+    width: 100%;
+}

@@ -3,9 +3,9 @@ import React from 'react'
 const Main = () => {
   return (
     <main>
-        <div>
+        <header>
             <img src="../src/assets/images/mobile/image-header.jpg" alt="orange fruit" />
-        </div>
+        </header>
         <div>
             <span role="img" aria-label='egg'></span>
             <h1>We are creatives Transform your brand</h1>
