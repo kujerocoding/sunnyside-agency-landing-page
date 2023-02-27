@@ -1,10 +1,11 @@
 import React from 'react'
-import Attribution from './Attribution'
+import Attribution from './components/Attribution'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <div>
-      App
+      <Navbar />
       <Attribution />
     </div>
   )
