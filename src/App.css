@@ -149,3 +149,36 @@ header{
     background-size: cover;
 }
 
+.img--cup{
+    background-image: url('/src/assets/images/mobile/image-stand-out.jpg');
+    display: block;
+    background-color: red;
+    width: 100%;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main--text--container{
+    color: var(--VERYDARKBLUE);
+    padding: 40px 20px;
+    text-align: center;
+    font-family: var(--FFSECONDARY);
+}
+
+.main--text--info {
+    padding-block: 30px;
+    color: var(--DARKGRAYISHBLUE);
+    font-family: var(--FFPRIMARY);
+    line-height: 2rem;
+}
+
+.main--text--learnmore{
+    text-transform: uppercase;
+    color: var(--VERYDARKBLUE);
+    font-weight: 800;
+}
+
+
+
