@@ -262,7 +262,7 @@ header{
     margin-block: 30px;
     line-height: 2rem;
     font-size: 1.1rem;
-    color: var(--DARKBLUE);
+    color: var(--DARKGRAYISHBLUE);
 }
 
 .testimony--name{
