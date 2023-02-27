@@ -1,16 +1,16 @@
 import React from 'react'
 
-const Testimonials = () => {
+const Testimonials = (props) => {
+  
   return (
-    <div className='testimonials'>
-        <h2>Client Testimonials</h2>
-      <div className='testimonial--container'>
-            <img src='src/assets/images/image-emily.jpg' alt="emily profile pic" />
-            <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-            <h3>Name</h3>
-            <p>position</p>
+   
+      <div className='testimony--container'>
+          <img  className='testimony--img' src={`src/assets/images/${props.imgURL}`} alt={`${props.name} profile picture`} />
+          <p className='testimony--text'>{props.testimony}</p>
+          <h3 className='testimony--name'>{props.name}</h3>
+          <p className='testimony--jobPosition'>{props.jobPosition}</p>
       </div>
-    </div>
+    
   )
 }
 
