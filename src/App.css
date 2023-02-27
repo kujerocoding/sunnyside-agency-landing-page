@@ -181,6 +181,31 @@ header{
     font-weight: 800;
 }
 
+.learn--yellow, .learn--softred{
+    display: inline;
+    position: relative;
+}
+
+.learn--yellow::after, .learn--softred:after{
+    position: absolute;
+    content: "";
+    width: 110%;
+    height: 10px;
+    opacity: .3;
+    left: -5%;
+    bottom: -1px;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.learn--yellow::after{
+    background-color: var(--YELLOW);
+}
+
+.learn--softred::after{
+    background-color: var(--SOFTRED);
+}
+
 .graphic--img--berry{
     min-height: 610px;
     background-image: url('/src/assets/images/mobile/image-graphic-design.jpg');
