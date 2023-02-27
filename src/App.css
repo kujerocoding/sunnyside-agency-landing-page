@@ -10,6 +10,7 @@
     --DARKCYAN: #25564b;
     --DARKBLUE:  hsl(198, 62%, 26%);
     --MODERATECYAN: hsl(168, 34%, 41%);
+    --LIGHTCYAN: hsl(168, 48%, 63%);
     --VERYDARKBLUE: hsl(212, 27%, 19%);
     --VERYDARKGRAYISHBLUE: hsl(213, 9%, 39%);
     --DARKGRAYISHBLUE: hsl(232, 10%, 55%);
@@ -292,7 +293,7 @@ header{
 }
 
 .footer--linksAndIcons--container{
-    background-color: var(--MODERATECYAN);
+    background-color: var(--LIGHTCYAN);
     text-align: center;
     padding-block: 50px;
 }
@@ -301,7 +302,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    color: var(--DARKCYAN);
+    color: var(--MODERATECYAN);
     padding-block: 30px;
 }
 
