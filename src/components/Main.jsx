@@ -12,7 +12,7 @@ const Main = () => {
                 <img className="header__img--arrow" src="../src/assets/images/icon-arrow-down.svg" alt="arrow down" />
             </div>
         </header>
-        <div>
+        <section className='upper'>
             <span className='img--egg' role="img" aria-label='egg'></span>
             <div className='main--text--container'>
                 <h1>Transform your brand</h1>
@@ -21,7 +21,7 @@ const Main = () => {
                 </p>
                 <p className='main--text--learnmore learn--yellow'>Learn more</p>
             </div>
-        </div>
+        </section>
         <div>
             <span className='img--cup' role="img" aria-label='cup'></span>
             <div className='main--text--container'>
@@ -32,18 +32,18 @@ const Main = () => {
                 <p className='main--text--learnmore learn--softred'>Learn more</p>
             </div>
         </div>
-        <div>
-            <span role="img" aria-label='berry'>
-                <h1>Graphic Design</h1>
-                <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+        <section className='lower'>
+            <span className='graphic--img--berry graphic' role="img" aria-label='berry'>
+                <h1 className='lower--title'>Graphic Design</h1>
+                <p className='lower--text--info'>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
             </span>
-        </div>
-        <div>
-            <span role="img" aria-label='orange'>
-                <h1>Photography</h1>
-                <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </section>
+        <section className='lower'>
+            <span className='photography--img--orange photography' role="img" aria-label='orange'>
+                <h1 className='lower--title'>Photography</h1>
+                <p className='lower--text--info'>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
             </span>
-        </div>
+        </section>
     </main>
   )
 }
