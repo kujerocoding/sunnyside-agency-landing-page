@@ -7,7 +7,7 @@
     --FS: 18px;
     --SOFTRED: hsl(7, 99%, 70%);
     --YELLOW: hsl(51, 100%, 49%);
-    --DARKCYAN: hsl(167, 40%, 24%);
+    --DARKCYAN: #25564b;
     --DARKBLUE:  hsl(198, 62%, 26%);
     --MODERATECYAN: hsl(168, 34%, 41%);
     --VERYDARKBLUE: hsl(212, 27%, 19%);
@@ -277,4 +277,49 @@ header{
 }
 
 
+
+.footer--gallery{
+    margin-top: 50px;
+    min-width: 100%; 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+}
+
+.footer--gallery > img {
+    display: block;
+   width: 100%; 
+}
+
+.footer--linksAndIcons--container{
+    background-color: var(--MODERATECYAN);
+    text-align: center;
+    padding-block: 50px;
+}
+
+.footer--lists{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: var(--DARKCYAN);
+    padding-block: 30px;
+}
+
+.footer--icons--container{
+    padding-block: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.attribution{
+    text-align: center;
+    font-size: .8rem;
+    margin-block: 50px;
+    color: var(--MODERATECYAN);
+}
+
+.attribution > a{
+    color: var(--DARKCYAN);
+}
 
