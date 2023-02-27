@@ -11,7 +11,7 @@ const Navbar = (props) => {
       
       {props.isMenuOpen && 
         <ul>
-          <li>Abount</li>
+          <li>About</li>
           <li>Services</li>
           <li>Projects</li>
           <li>Contact</li>
