@@ -313,7 +313,6 @@ header{
 }
 
 
-
 .footer--gallery{
     margin-top: 50px;
     min-width: 100%; 
@@ -339,6 +338,11 @@ header{
     list-style: none;
     color: var(--MODERATECYAN);
     padding-block: 30px;
+    cursor: pointer;
+}
+
+.footer--lists> li:hover{
+    color: white;
 }
 
 .footer--icons--container{
@@ -346,6 +350,31 @@ header{
     display: flex;
     justify-content: center;
     gap: 20px;
+    cursor: pointer;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon--facebook{
+    background-image: url('/src/assets/images/icon-facebook.svg');
+}
+.icon--instagram{
+    background-image: url('/src/assets/images/icon-instagram.svg');
+}
+.icon--twitter{
+    background-image: url('/src/assets/images/icon-twitter.svg');
+}
+.icon--pinterest{
+    background-image: url('/src/assets/images/icon-pinterest.svg');
+}
+
+.icons:hover{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(49deg) brightness(200%) contrast(103%);
 }
 
 .attribution{

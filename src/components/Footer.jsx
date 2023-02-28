@@ -13,15 +13,16 @@ const Footer = () => {
         <img className='footer--logo' src="./src/assets/images/footer-logo.svg" alt="sunnyside logo" />
         <ul className='footer--lists'>
           <li>About</li>
-          <li>Servies</li>
+          <li>Services</li>
           <li>Projects</li>
         </ul>
         <div className='footer--icons--container'>
-          <img src="src/assets/images/icon-facebook.svg" alt="facebook" />
-          <img src="src/assets/images/icon-instagram.svg" alt="instagram" />
-          <img src="src/assets/images/icon-twitter.svg" alt="twitter" />
-          <img src="src/assets/images/icon-pinterest.svg" alt="pinterest" />
+          <div className='icon--facebook icons'></div>
+          <div className='icon--instagram icons'></div>
+          <div className='icon--twitter icons'></div>
+          <div className='icon--pinterest icons'></div>
         </div>
+        <div className='testing'></div>
       </div>
     </footer>
   )
