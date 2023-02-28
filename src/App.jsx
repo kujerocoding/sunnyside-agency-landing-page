@@ -32,7 +32,9 @@ const App = () => {
       <Main />
       <div className='testimonials--container'>
         <h2>Client Testimonials</h2>
-        {testimonialElements}
+        <div className='client--testimonies--container'>
+          {testimonialElements}
+        </div>
       </div>
       <Footer />
       <Attribution />
