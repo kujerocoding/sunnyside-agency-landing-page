@@ -48,7 +48,14 @@ nav{
     cursor: pointer;
 }
 
-nav > ul {
+.nav--lists{
+    list-style: none;
+    color: white;
+    font-size: .9rem;
+    display: none;
+}
+
+.nav--active {
     margin-top: 50px;
     padding-block: 40px;
     background-color: white;
@@ -76,9 +83,11 @@ nav > ul::before{
 }
 
 nav > ul > li {
-    padding-inline: 30px;
+    
     border-radius: 30px;
     cursor: pointer;
+   
+    padding: 10px 30px;
 }
 
 nav > ul > li:hover{
@@ -347,5 +356,34 @@ header{
 
 .attribution > a{
     color: var(--DARKCYAN);
+}
+
+@media (min-width: 40em){
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 30px;
+    }
+    
+    .icon--hamburger{
+        display: none;
+    }
+    
+    .nav--lists{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .nav--lists::before{
+        display: none;
+    }
+
+    .nav--lists > li:hover{
+        color: black;
+        background-color: white;
+    }
+
 }
 
