@@ -1,0 +1,115 @@
+
+@media (min-width: 50em){
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 30px;
+    }
+    
+    .icon--hamburger{
+        display: none;
+    }
+    
+    .nav--lists{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .nav--lists::before{
+        display: none;
+    }
+
+    .nav--lists > li:hover{
+        color: black;
+        background-color: white;
+    }
+
+    .header__img--orange{
+        background-image: url('/src/assets/images/desktop/image-header.jpg');
+    }
+   
+    .main--section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img--egg{
+        background-image: url('/src/assets/images/desktop/image-transform.jpg');
+       grid-column: 2/ -1;
+    }
+
+    .text--egg{
+        grid-column: 1 / 2;
+        grid-row: 1/ 2;
+    }
+    
+    .img--cup{
+        background-image: url('/src/assets/images/desktop/image-stand-out.jpg');
+    }
+
+    .main--text--container{
+         padding: 15% 15%;
+         text-align: left;
+    }
+    
+    .main--text--container > h1{
+        font-size: clamp(2rem, 5vw, 3rem);
+        }
+    
+    .main--text--info{
+        font-size: 1rem;
+        line-height: 1.5rem;  
+    }
+
+    .photography--img--orange, .graphic--img--berry{
+        padding: 0;
+        min-height: 500px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .photography--img--orange{
+        background-image: url('/src/assets/images/desktop/image-photography.jpg');
+    }
+
+    .graphic--img--berry{
+        background-image: url('/src/assets/images/desktop/image-graphic-design.jpg');
+    }
+
+    .lower--title{
+        padding: 0;
+    }
+
+    .lower--text--info{
+        max-width: 350px;
+        padding-block: 40px;
+    }
+
+    .testimonials--container{
+        padding-block: 50px;
+    }
+
+    .client--testimonies--container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-inline: 120px;
+    }
+
+    .footer--gallery{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .footer--logo{
+        transform: scale(1.2);
+    }
+
+    .footer--lists{
+        justify-content: center;
+        gap: 5%;
+    }
+
+}

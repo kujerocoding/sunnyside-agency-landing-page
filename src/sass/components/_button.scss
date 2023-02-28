@@ -1,0 +1,46 @@
+
+nav > ul > li:hover{
+    background-color: $YELLOW;
+    color: $VERYDARKBLUE;
+    text-transform: uppercase;
+    font-family: $FFSECONDARY;
+    font-size: .8rem;
+}
+
+.learn--yellow, .learn--softred{
+    display: inline;
+    position: relative;
+    cursor: pointer;
+}
+
+.learn--yellow::after, .learn--softred:after{
+    position: absolute;
+    content: "";
+    width: 110%;
+    height: 10px;
+    opacity: .3;
+    left: -5%;
+    bottom: -1px;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.learn--yellow::after{
+    background-color: $YELLOW;
+}
+
+.learn--softred::after{
+    background-color: $SOFTRED;
+}
+
+.learn--yellow:hover::after {
+    opacity: 1;
+}
+
+.learn--softred:hover::after {
+    opacity: 1;
+}
+
+.footer--lists> li:hover{
+    color: white;
+}

@@ -1,0 +1,36 @@
+@import '//src/sass/abstracts/variables';
+
+.footer--gallery{
+    margin-top: 50px;
+    min-width: 100%; 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.footer--gallery > img {
+    display: block;
+   width: 100%; 
+}
+
+.footer--linksAndIcons--container{
+    background-color: $LIGHTCYAN;
+    text-align: center;
+    padding-block: 50px;
+}
+
+.footer--lists{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: $MODERATECYAN;
+    padding-block: 30px;
+    cursor: pointer;
+}
+
+.footer--icons--container{
+    padding-block: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+
+.header--info--container > p {
+    font-size: 3rem;
+    font-family: $FFSECONDARY;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main--text--container{
+    color: $VERYDARKBLUE;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: $FFSECONDARY;
+}
+
+.main--text--container > h1 {
+    font-size: clamp(2rem, 3vw, 2rem);
+}
+
+.main--text--info {
+    padding-block: 30px;
+    color: $DARKGRAYISHBLUE;
+    font-family: $FFPRIMARY;
+    line-height: 2rem;
+}
+
+.main--text--learnmore{
+    text-transform: uppercase;
+    color: $VERYDARKBLUE;
+    font-weight: 800;
+}
+
+.nav--lists{
+    list-style: none;
+    color: white;
+    font-size: .9rem;
+    display: none;
+}
+
+.lower--title{
+    font-family: $FFSECONDARY;
+    color: $DARKCYAN;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.lower--text--info{
+    color: $DARKCYAN;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.testimonials--container > h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: $GRAYISHBLUE;
+    text-transform: uppercase;
+    font-family: $FFSECONDARY;
+    font-size: 1.1rem;
+    letter-spacing: .25rem;
+}
+
+.testimony--text{
+    margin-block: 30px;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    color: $DARKGRAYISHBLUE;
+}
+
+.testimony--name{
+    color: $VERYDARKBLUE;
+    font-family: $FFSECONDARY;
+    font-weight: 800;
+}
+
+.testimony--jobPosition{
+    margin-top: 15px;
+    color: $GRAYISHBLUE;
+    font-size: .9rem;
+}
+
+.attribution{
+    text-align: center;
+    font-size: .8rem;
+    margin-block: 50px;
+    color: $MODERATECYAN;
+}
+
+.attribution > a{
+    color: $DARKCYAN;
+}
