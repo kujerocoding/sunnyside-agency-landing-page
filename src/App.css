@@ -29,7 +29,6 @@ body{
 }
 
 
-
 nav{
     width: 100%;
     position: fixed;
@@ -197,6 +196,7 @@ header{
 .learn--yellow, .learn--softred{
     display: inline;
     position: relative;
+    cursor: pointer;
 }
 
 .learn--yellow::after, .learn--softred:after{
@@ -219,11 +219,17 @@ header{
     background-color: var(--SOFTRED);
 }
 
-.graphic--img--berry{
+.learn--yellow:hover::after {
+    opacity: 1;
+}
+
+.learn--softred:hover::after {
+    opacity: 1;
+}
+
+.graphic--img--berry, .photography--img--orange{
     min-height: 610px;
-    background-image: url('/src/assets/images/mobile/image-graphic-design.jpg');
     display: block;
-    background-color: red;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,21 +241,12 @@ header{
     padding-inline: 20px;
 }
 
+.graphic--img--berry{
+    background-image: url('/src/assets/images/mobile/image-graphic-design.jpg');
+}
+
 .photography--img--orange{
-    min-height: 610px;
     background-image: url('/src/assets/images/mobile/image-photography.jpg');
-    display: block;
-    background-color: red;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    padding-bottom: 50px;
-    padding-inline: 20px;
 }
 
 .lower--title{
